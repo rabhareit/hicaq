@@ -16,4 +16,3 @@ autoload -Uz add-zsh-hook
 
 add-zsh-hook preexec notify_preexec
 add-zsh-hook precmd notify_precmd
-
