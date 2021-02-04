@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 function notify_preexec {
   notif_prev_executed_at=`date`
