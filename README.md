@@ -15,7 +15,7 @@ HICAQ_SLACK_USER_NAME="YOUR SLACKID" # NOT username
 If you don't need @ mention, you don't have to set `HICAQ_SLACK_USER_NAME`.
 
 ### add hicaq to zsh-hook
-See `hicaq_hook.sh`
+See [hicaq_hook.sh](https://github.com/rabhareit/hicaq/blob/main/hicaq_hook.sh)
 
 ## usage
 ```sh
