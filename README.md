@@ -25,12 +25,12 @@ hicaq --command <COMMAND> --elapsed <ELAPSED> --executed-at <EXECUTED> --status 
 ### OPTIONS:
 |short|long|description|
 |---|---|---|
-|-c, | --command | Previous command name
-|-e, | --elapsed | Elapsed time
-|-a, | --executed-at | Executed at
-|-s, | --status | Success(0) or fail(else)
+| -c | --command | Previous command name |
+| -e | --elapsed | Elapsed time |
+| -a | --executed-at | Executed at |
+| -s | --status | Success(0) or fail(else) |
 
 ### ARGS:
 |arg|description|
 |---|---|
-|message | Message sent with statu|
+| message | Message sent with statu |
