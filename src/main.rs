@@ -103,8 +103,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
     };
 
-    let webhook_key = "CMD_NOTIFY_SLACK_WEBHOOK_URL";
-    let username_key = "CMD_NOTIFY_SLACK_USER_NAME";
+    let webhook_key = "HICAQ_SLACK_WEBHOOK_URL";
+    let username_key = "HICAQ_SLACK_USER_NAME";
 
     let webhook_url = match env::var(webhook_key) {
         Ok(val) => val,
