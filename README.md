@@ -5,6 +5,9 @@ Send command status to slack
 ![seccess.png](./img/success.png)
 ![fail.png](./img/fail.png)
 
+Practice of rust 
+Idea is based on [時間がかかるコマンドの実行結果をSlackに通知する](https://qiita.com/izumin5210/items/c683cb6addc58cae59b6).
+
 ## configuration
 
 Add your environment variable to
@@ -34,3 +37,6 @@ hicaq --command <COMMAND> --elapsed <ELAPSED> --executed-at <EXECUTED> --status 
 |arg|description|
 |---|---|
 | message | Message sent with statu |
+
+## References
+[時間がかかるコマンドの実行結果をSlackに通知する](https://qiita.com/izumin5210/items/c683cb6addc58cae59b6)
